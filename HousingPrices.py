@@ -52,8 +52,8 @@ linear_regressor = tf.estimator.LinearRegressor(
 )
 
 
-#we'll convert our pandas feature data into a dict of NumPy arrays.
-#We can then use the TensorFlow Dataset API to construct a dataset object from our data, and then break our data into batches of batch_size, to be repeated for the specified number of epochs (num_epochs).
+###we'll convert our pandas feature data into a dict of NumPy arrays.
+###We can then use the TensorFlow Dataset API to construct a dataset object from our data, and then break our data into batches of batch_size, to be repeated for the specified number of epochs (num_epochs).
 
 def my_input_fn(features, targets, batch_size=1, shuffle=True, num_epochs=None):
     """Trains a linear regression model of one feature.
