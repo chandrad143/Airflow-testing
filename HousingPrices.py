@@ -284,27 +284,3 @@ calibration_data = train_model(
     input_feature="rooms_per_person")
     
 #Final RMSE (on training data): 131.37
-
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
