@@ -16,7 +16,7 @@ pd.options.display.float_format = '{:.1f}'.format
 housing = pd.read_csv("https://storage.googleapis.com/mledu-datasets/california_housing_train.csv", sep=",")
 ###We'll randomize the data, just to be sure not to get any pathological ordering effects that might harm the performance of Stochastic Gradient Descent. 
 #Additionally, we'll scale median_house_value to be in units of thousands, so it can be learned a little more easily with learning rates in a range that we usually use.
-
+train = housing.reindex(np.random.permutation(housing.index))
 train = housing.reindex(np.random.permutation(housing.index))
 train["median_house_value"] /= 1000.0
 train.head()
