@@ -195,7 +195,7 @@ def train_model(learning_rate, steps, batch_size, input_feature="total_rooms"):
       feature_columns=feature_columns,
       optimizer=my_optimizer
   )
-predictions = np.array([item['predictions'][0] for item in predictions])
+
   # Set up to plot the state of our model's line each period.
   plt.figure(figsize=(15, 6))
   plt.subplot(1, 2, 1)
