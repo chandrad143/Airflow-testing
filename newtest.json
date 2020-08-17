@@ -4,8 +4,8 @@
         {
             "id":"35695"
         },
-        "summary": "Final Test - Automated itrack from Airflow.",
-        "description": "Testing after hiding the variables, this was created automatically by airflow",
+        "summary": "Automated itrack from Airflow.",
+        "description": "testing a component, this was created automatically by airflow",
         "issuetype": {
             "id":"31"
         }
