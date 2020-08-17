@@ -1,0 +1,14 @@
+{
+    "fields": {
+        "project": 
+        {
+            "id":"35695"
+        },
+        "summary": "test08_17 - Automated itrack from Airflow.",
+        "description": "Issue created on 08/17 and was created automatically by airflow",
+        "issuetype": {
+            "id":"31"
+        }
+        
+    }
+}
